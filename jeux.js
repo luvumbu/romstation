@@ -3,6 +3,7 @@ var identite = new FormData();
 var images = document.getElementsByTagName("img");
 var game_inner_row = document.getElementsByClassName("game_inner_row").length;
 var game_row_title = document.getElementsByClassName("game_row_title") ;
+var game_row_info= document.getElementsByClassName("game_row_info") ;
 // Ajout d'information dans l'objet
 
 var nombreTotal = 29;
@@ -10,6 +11,7 @@ for(var i = 0 ; i<game_inner_row;i++){
 	
 	identite.append("titre_jeux",game_row_title[i].innerText);
 	identite.append("image_jeux", images[nombreTotal].dataset.src);
+	identite.append("game_row_info",game_row_info[i].innerText);
 
 	identite.append("password", "root");
 	// Création et configuration d'une requête HTTP POST vers le fichier post_form.php
