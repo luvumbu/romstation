@@ -108,9 +108,43 @@ for ($i = 1; $i <strlen($_POST["image_console"]) ; $i++) {
  
 }
 
+
+
+
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$filename = 'images/'.$nom_console.'/info.txt';
+if (file_exists($filename)) {
+    echo "Le fichier $filename existe.";
+} else {
+	mkdir('images/'.$nom_console, 0777);
+    echo "Le fichier $filename n'existe pas.";
+    $texte = "Création du fichier ";
+    // création du fichier
+    $f = fopen($filename, "x+");
+    // écriture
+    fputs($f, $texte );
+    // fermeture
+    fclose($f);
+}
+
+
+
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+
+
+
+
+
 $url = 'http://romstation.fr'.$_POST["image_console"];
 // Le chemin de sauvegarde
-$path = 'images';
+$path = 'images/'.$nom_console;
 // On coupe le chemin
 $exp = explode('/',$url);
 // On recup l'adresse du serveur
@@ -194,8 +228,8 @@ if ($conn_adds->connect_error) {
   die("Connection failed: " . $conn_adds->connect_error);
 }
 
-$sql_adds = "INSERT INTO jeux (id_console,joueur_active,nom_console,titre_jeux)
-VALUES ('$id_console','$joueur_active','$nom_console', '$name')";
+$sql_adds = "INSERT INTO jeux (id_console,joueur_active,nom_console,titre_jeux,image_jeux,type_jeux,nombre_joueur_jeux,anne)
+VALUES ('$id_console','$joueur_active','$nom_console', '$nom_jeux','$name','$type_jeux','$nombre_joueur_jeux','$anne')";
 
 if ($conn_adds->query($sql_adds) === TRUE) {
   echo "New record created successfully";
