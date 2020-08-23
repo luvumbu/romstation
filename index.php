@@ -93,7 +93,7 @@
 <div id="elUserSignIn_menu" class="ipsMenu ipsMenu_auto ipsHide">
 	<form accept-charset="utf-8" method="post" action="//www.romstation.fr/login/" data-controller="core.global.core.login">
 		<input type="hidden" name="csrfKey" value="45fa450d80ac5bd9a32b3c605684d1fe">
-		<input type="hidden" name="ref" value="aHR0cHM6Ly93d3cucm9tc3RhdGlvbi5mci9nYW1lcz9yc19wYWdlPTEwJm9yZGVyX2Rpc3A9cG9wL1BsdXMlMkJqb3UlQzMlQTlzJmNvbnNvbGVzX2lkWzBdPTE0L0dhbWVCb3k=">
+		<input type="hidden" name="ref" value="aHR0cHM6Ly93d3cucm9tc3RhdGlvbi5mci9nYW1lcz9yc19wYWdlPTkmb3JkZXJfZGlzcD1wb3AvUGx1cyUyQmpvdSVDMyVBOXMmY29uc29sZXNfaWRbMF09MTkvTkVT">
 		<div data-role="loginForm">
 			
 			
@@ -188,7 +188,7 @@
 			
 			    <ul>
         <li class="nav-item">
-            <a href="/multiplayer"><span>Multijoueur</span><span class="multi_counter" title="1 joueurs actifs sur 1 serveurs" data-ipstooltip="">1</span></a>
+            <a href="/multiplayer"><span>Multijoueur</span><span class="multi_counter" title="3 joueurs actifs sur 2 serveurs" data-ipstooltip="">3</span></a>
         </li>
 	<li class="nav-item">
             <a class="nav-item-head" href="/games">Jeux <i class="fa fa-caret-down"></i></a>
@@ -294,782 +294,98 @@
     </div>   
         <div class="ipsMessage ipsMessage_general">
         <a href="/games" class="ipsPos_right ipsButton ipsButton_veryLight ipsButton_verySmall">Supprimer les filtres</a>
-        <span><b>983</b> réponses parmi les <b>31754</b> jeux dans la base de données.</span>
+        <span><b>2686</b> réponses parmi les <b>31754</b> jeux dans la base de données.</span>
     </div>
-    <b>Filtres actifs :</b> <span class="game_search_active_filters">GameBoy<a href="/games?order_disp=pop%2FPlus+jou%C3%A9s&amp;"><i class="fa fa-times-circle"></i></a></span><span class="game_search_active_filters"><i class="fa fa-sort-alpha-asc"></i> Plus joués<a href="/games?consoles_id[]=14%2FGameBoy"><i class="fa fa-times-circle"></i></a></span>
-    <center id="alphanum_filters"><span class="active">Tous</span> | <a href="/games?letter=0-9&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">0-9</a> | <a href="/games?letter=A&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">A</a> | <a href="/games?letter=B&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">B</a> | <a href="/games?letter=C&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">C</a> | <a href="/games?letter=D&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">D</a> | <a href="/games?letter=E&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">E</a> | <a href="/games?letter=F&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">F</a> | <a href="/games?letter=G&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">G</a> | <a href="/games?letter=H&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">H</a> | <a href="/games?letter=I&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">I</a> | <a href="/games?letter=J&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">J</a> | <a href="/games?letter=K&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">K</a> | <a href="/games?letter=L&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">L</a> | <a href="/games?letter=M&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">M</a> | <a href="/games?letter=N&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">N</a> | <a href="/games?letter=O&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">O</a> | <a href="/games?letter=P&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">P</a> | <a href="/games?letter=Q&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">Q</a> | <a href="/games?letter=R&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">R</a> | <a href="/games?letter=S&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">S</a> | <a href="/games?letter=T&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">T</a> | <a href="/games?letter=U&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">U</a> | <a href="/games?letter=V&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">V</a> | <a href="/games?letter=W&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">W</a> | <a href="/games?letter=X&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">X</a> | <a href="/games?letter=Y&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">Y</a> | <a href="/games?letter=Z&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">Z</a></center>
+    <b>Filtres actifs :</b> <span class="game_search_active_filters">NES<a href="/games?order_disp=pop%2FPlus+jou%C3%A9s&amp;"><i class="fa fa-times-circle"></i></a></span><span class="game_search_active_filters"><i class="fa fa-sort-alpha-asc"></i> Plus joués<a href="/games?consoles_id[]=19%2FNES"><i class="fa fa-times-circle"></i></a></span>
+    <center id="alphanum_filters"><span class="active">Tous</span> | <a href="/games?letter=0-9&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">0-9</a> | <a href="/games?letter=A&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">A</a> | <a href="/games?letter=B&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">B</a> | <a href="/games?letter=C&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">C</a> | <a href="/games?letter=D&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">D</a> | <a href="/games?letter=E&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">E</a> | <a href="/games?letter=F&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">F</a> | <a href="/games?letter=G&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">G</a> | <a href="/games?letter=H&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">H</a> | <a href="/games?letter=I&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">I</a> | <a href="/games?letter=J&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">J</a> | <a href="/games?letter=K&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">K</a> | <a href="/games?letter=L&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">L</a> | <a href="/games?letter=M&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">M</a> | <a href="/games?letter=N&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">N</a> | <a href="/games?letter=O&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">O</a> | <a href="/games?letter=P&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">P</a> | <a href="/games?letter=Q&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">Q</a> | <a href="/games?letter=R&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">R</a> | <a href="/games?letter=S&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">S</a> | <a href="/games?letter=T&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">T</a> | <a href="/games?letter=U&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">U</a> | <a href="/games?letter=V&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">V</a> | <a href="/games?letter=W&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">W</a> | <a href="/games?letter=X&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">X</a> | <a href="/games?letter=Y&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">Y</a> | <a href="/games?letter=Z&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">Z</a></center>
     
             <ul class="ipsPagination">
             
             <li class="ipsPagination_first">
-                <a rel="start" title="Aller à la première page" href="/games?rs_page=1&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy"><i class="fa fa-angle-double-left"></i></a>
+                <a rel="start" title="Aller à la première page" href="/games?rs_page=1&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES"><i class="fa fa-angle-double-left"></i></a>
             </li>
             
             <li class="ipsPagination_prev">
-                <a rel="prev" title="Page précédente" href="/games?rs_page=9&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">Précédent</a>
+                <a rel="prev" title="Page précédente" href="/games?rs_page=8&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">Précédent</a>
             </li>
             
             <li class="ipsPagination_page ">
-                <a title="7" href="/games?rs_page=7&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">7</a>
+                <a title="6" href="/games?rs_page=6&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">6</a>
             </li>
             <li class="ipsPagination_page ">
-                <a title="8" href="/games?rs_page=8&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">8</a>
+                <a title="7" href="/games?rs_page=7&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">7</a>
             </li>
             <li class="ipsPagination_page ">
-                <a title="9" href="/games?rs_page=9&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">9</a>
+                <a title="8" href="/games?rs_page=8&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">8</a>
             </li>
             <li class="ipsPagination_page ipsPagination_active">
-                <a title="10" href="/games?rs_page=10&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">10</a>
+                <a title="9" href="/games?rs_page=9&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">9</a>
             </li>
             <li class="ipsPagination_page ">
-                <a title="11" href="/games?rs_page=11&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">11</a>
+                <a title="10" href="/games?rs_page=10&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">10</a>
             </li>
             <li class="ipsPagination_page ">
-                <a title="12" href="/games?rs_page=12&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">12</a>
+                <a title="11" href="/games?rs_page=11&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">11</a>
             </li>
             <li class="ipsPagination_page ">
-                <a title="13" href="/games?rs_page=13&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">13</a>
+                <a title="12" href="/games?rs_page=12&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">12</a>
             </li>
             
             <li class="ipsPagination_next">
-                <a rel="next" title="Page suivante" href="/games?rs_page=11&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">Suivant</a>
+                <a rel="next" title="Page suivante" href="/games?rs_page=10&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">Suivant</a>
             </li>
             
             <li class="ipsPagination_last">
-                <a rel="last" title="Aller à la dernière page" href="/games?rs_page=20&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy"><i class="fa fa-angle-double-right"></i></a>
+                <a rel="last" title="Aller à la dernière page" href="/games?rs_page=54&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES"><i class="fa fa-angle-double-right"></i></a>
             </li>
             <li class="ipsPagination_pageJump">
-                Page 10 sur 20
+                Page 9 sur 54
             </li>
         </ul> 
     <div class="flex-container">
-        <style type="text/css">#kubrick-overlay {background-image: url(/romstation/resources/games/gb/banner/33969.jpg?1539334345);}</style>            <a href="/games/mega-man-v-r33969" class="game_row lazyloaded" data-bg="/romstation/resources/games/gb/mini_banner/33969.jpg?1539334345" style="background-image: url(&quot;/romstation/resources/games/gb/mini_banner/33969.jpg?1539334345&quot;);">
+        <style type="text/css">#kubrick-overlay {background-image: url(/romstation/resources/games/nes/banner/45910.jpg?1451429084);}</style>            <a href="/games/bucky-o-hare-r45910" class="game_row lazyloaded" data-bg="/romstation/resources/games/nes/mini_banner/45910.jpg?1451429084" style="background-image: url(&quot;/romstation/resources/games/nes/mini_banner/45910.jpg?1451429084&quot;);">
                 <div class="game_inner_row">
-                    <img class="game_row_jaquette lazyloaded" data-src="/romstation/resources/games/gb/mini_cover/33969.jpg?1539334345" title="Mega Man V" src="/romstation/resources/games/gb/mini_cover/33969.jpg?1539334345">
+                    <img class="game_row_jaquette lazyloaded" data-src="/romstation/resources/games/nes/mini_cover/45910.jpg?1451429084" title="Bucky O'Hare" src="/romstation/resources/games/nes/mini_cover/45910.jpg?1451429084">
                     
-                    <img class="game_row_console ls-is-cached lazyloaded" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png" src="/romstation/resources/images/games/consoles/gb.png">
+                    <img class="game_row_console ls-is-cached lazyloaded" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png" src="/romstation/resources/images/games/consoles/nes.png">
                     <span class="game_row_title">
-                        Mega Man V
+                        Bucky O'Hare
                     </span>
-                    
+                            <div class="cadre_note" title="Note moyenne des membres">
+            <p class="note_top">note</p>
+            <p class="note_bottom blue">
+                <span class="average_rating">4</span>
+                <span class="max_rating">/5</span>
+            </p>
+        </div>
                     <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Action - Plates-formes | 1 joueur | 1994
-                    </div>
-                </div>
-            </a>            <a href="/games/the-adventures-of-rocky-and-bullwinkle-and-friends-r35828" class="game_row lazyloaded" data-bg="/romstation/resources/games/gb/mini_banner/35828.jpg?0" style="background-image: url(&quot;/romstation/resources/games/gb/mini_banner/35828.jpg?0&quot;);">
-                <div class="game_inner_row">
-                    <img class="game_row_jaquette lazyloaded" data-src="/romstation/resources/games/gb/mini_cover/35828.jpg?0" title="The Adventures of Rocky and Bullwinkle and Friends" src="/romstation/resources/games/gb/mini_cover/35828.jpg?0">
-                    
-                    <img class="game_row_console ls-is-cached lazyloaded" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png" src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        The Adventures of Rocky and Bullwinkle and Friends
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Action - Plates-formes | 1 joueur | 1992
-                    </div>
-                </div>
-            </a>            <a href="/games/kid-dracula-r36605" class="game_row lazyloaded" data-bg="/romstation/resources/games/gb/mini_banner/36605.jpg?1539282201" style="background-image: url(&quot;/romstation/resources/games/gb/mini_banner/36605.jpg?1539282201&quot;);">
-                <div class="game_inner_row">
-                    <img class="game_row_jaquette lazyloaded" data-src="/romstation/resources/games/gb/mini_cover/36605.jpg?1539282201" title="Kid Dracula" src="/romstation/resources/games/gb/mini_cover/36605.jpg?1539282201">
-                    
-                    <img class="game_row_console ls-is-cached lazyloaded" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png" src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Kid Dracula
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
                         <img src="/romstation/resources/images/flags/fr.png" alt="Français" title="Français">
-                        Action - Plates-formes | 1 joueur | 1993
-                    </div>
-                </div>
-            </a>            <a href="/games/solomon-s-club-r36639" class="game_row lazyloaded" data-bg="/romstation/resources/games/gb/mini_banner/36639.jpg?1539530905" style="background-image: url(&quot;/romstation/resources/games/gb/mini_banner/36639.jpg?1539530905&quot;);">
-                <div class="game_inner_row">
-                    <img class="game_row_jaquette lazyloaded" data-src="/romstation/resources/games/gb/mini_cover/36639.jpg?1539530905" title="Solomon's Club" src="/romstation/resources/games/gb/mini_cover/36639.jpg?1539530905">
-                    
-                    <img class="game_row_console ls-is-cached lazyloaded" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png" src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Solomon's Club
-                    </span>
-                            <div class="cadre_note" title="Note moyenne des membres">
-            <p class="note_top">note</p>
-            <p class="note_bottom orange">
-                <span class="average_rating">3</span>
-                <span class="max_rating">/5</span>
-            </p>
-        </div>
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/fr.png" alt="Français" title="Français">
-                        Action - Réflexion | 1 joueur | 1991
-                    </div>
-                </div>
-            </a>            <a href="/games/lemmings-2-the-tribes-r37831" class="game_row lazyloaded" data-bg="/romstation/resources/games/gb/mini_banner/37831.jpg?1398336629" style="background-image: url(&quot;/romstation/resources/games/gb/mini_banner/37831.jpg?1398336629&quot;);">
-                <div class="game_inner_row">
-                    <img class="game_row_jaquette lazyloaded" data-src="/romstation/resources/games/gb/mini_cover/37831.jpg?1398336629" title="Lemmings 2 - The Tribes" src="/romstation/resources/games/gb/mini_cover/37831.jpg?1398336629">
-                    
-                    <img class="game_row_console ls-is-cached lazyloaded" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png" src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Lemmings 2 - The Tribes
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Réflexion | 1 joueur | 1994
-                    </div>
-                </div>
-            </a>            <a href="/games/bust-a-move-3-dx-r40085" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/40085.jpg?1561637693">
-                <div class="game_inner_row">
-                    <img class="game_row_jaquette ls-is-cached lazyloaded" data-src="/romstation/resources/games/gb/mini_cover/40085.jpg?1561637693" title="Bust-A-Move 3 DX" src="/romstation/resources/games/gb/mini_cover/40085.jpg?1561637693">
-                    
-                    <img class="game_row_console ls-is-cached lazyloaded" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png" src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Bust-A-Move 3 DX
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Puzzle | 1 joueur | 1997
-                    </div>
-                </div>
-            </a>            <a href="/games/beavis-and-butt-head-r40379" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/40379.jpg?1524629865">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/40379.jpg?1524629865" title="Beavis and Butt-Head">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Beavis and Butt-Head
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Action - Plates-formes | 1 joueur | 1999
-                    </div>
-                </div>
-            </a>            <a href="/games/super-bikkuriman-densetsu-no-sekiban-r41037" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/41037.jpg?1585354407">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/41037.jpg?1585354407" title="Super Bikkuriman - Densetsu no Sekiban">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Super Bikkuriman - Densetsu no Sekiban
-                    </span>
-                            <div class="cadre_note" title="Note moyenne des membres">
-            <p class="note_top">note</p>
-            <p class="note_bottom green">
-                <span class="average_rating">5</span>
-                <span class="max_rating">/5</span>
-            </p>
-        </div>
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Beat'em all | 1 joueur | 1991
-                    </div>
-                </div>
-            </a>            <a href="/games/kininkou-maroku-oni-r41731" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/41731.jpg?1552071346">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/41731.jpg?1552071346" title="Kininkou Maroku Oni">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Kininkou Maroku Oni
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        RPG | 1 joueur | 1990
-                    </div>
-                </div>
-            </a>            <a href="/games/last-action-hero-r42101" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/42101.jpg?1415614692">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/42101.jpg?1415614692" title="Last Action Hero">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Last Action Hero
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Action | 1 joueur | 1993
-                    </div>
-                </div>
-            </a>            <a href="/games/rolan-s-curse-2-r42912" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/42912.jpg?1423049909">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/42912.jpg?1423049909" title="Rolan's Curse 2">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Rolan's Curse 2
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/se.png" alt="Suédois" title="Suédois">
-                        RPG | 1 joueur | 1992
-                    </div>
-                </div>
-            </a>            <a href="/games/final-fantasy-legend-ii-r44179" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/44179.jpg?1441696036">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/44179.jpg?1441696036" title="Final Fantasy Legend II">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Final Fantasy Legend II
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/de.png" alt="Allemand" title="Allemand">
-                        RPG | 1 joueur | 1991
-                    </div>
-                </div>
-            </a>            <a href="/games/gear-works-r45665" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/45665.jpg?1449238223">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/45665.jpg?1449238223" title="Gear Works">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Gear Works
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Puzzle - Réflexion | 1 joueur | 1993
-                    </div>
-                </div>
-            </a>            <a href="/games/tekkyu-fight-the-great-battle-gaiden-r46627" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/46627.jpg?1455080365">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/46627.jpg?1455080365" title="Tekkyu Fight! The Great Battle Gaiden">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Tekkyu Fight! The Great Battle Gaiden
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais">
-                        Action | 1 joueur | 1993
-                    </div>
-                </div>
-            </a>            <a href="/games/true-lies-r47271" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/47271.jpg?1458315367">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/47271.jpg?1458315367" title="True Lies">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        True Lies
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Action | 1 joueur | 1994
-                    </div>
-                </div>
-            </a>            <a href="/games/battle-pingpong-r48905" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/48905.jpg?1565520425">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/48905.jpg?1565520425" title="Battle Pingpong">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Battle Pingpong
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Sport | 2 joueurs | 1990
-                    </div>
-                </div>
-            </a>            <a href="/games/kid-icarus-of-myths-and-monsters-r48951" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/48951.jpg?1539282702">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/48951.jpg?1539282702" title="Kid Icarus : Of Myths and Monsters">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Kid Icarus : Of Myths and Monsters
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/es.png" alt="Espagnol" title="Espagnol">
-                        Action - Plates-formes | 1 joueur | 1991
-                    </div>
-                </div>
-            </a>            <a href="/games/megami-tensei-gaiden-last-bible-r48987" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/48987.jpg?1462870309">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/48987.jpg?1462870309" title="Megami Tensei Gaiden: Last Bible">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Megami Tensei Gaiden: Last Bible
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais">
-                        RPG | 1 joueur | 1992
-                    </div>
-                </div>
-            </a>            <a href="/games/tennis-r49166" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/49166.jpg?1539621547">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/49166.jpg?1539621547" title="Tennis">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Tennis
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/pt.png" alt="Portugais" title="Portugais">
-                        Sport | 2 joueurs | 1989
-                    </div>
-                </div>
-            </a>            <a href="/games/kwirk-r50601" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/50601.jpg?1546456366">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/50601.jpg?1546456366" title="Kwirk">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Kwirk
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/fr.png" alt="Français" title="Français">
-                        Puzzle - Réflexion | 2 joueurs | 1990
-                    </div>
-                </div>
-            </a>            <a href="/games/battle-of-kingdom-r51419" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/51419.jpg?1496372112">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/51419.jpg?1496372112" title="Battle of Kingdom">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Battle of Kingdom
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais">
-                        Jeu de cartes - RPG | 1 joueur | 1991
-                    </div>
-                </div>
-            </a>            <a href="/games/pokemon-yellow-version-special-pikachu-edition-r52216" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/52216.jpg?1539359164">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/52216.jpg?1539359164" title="Pokémon Yellow Version: Special Pikachu Edition">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Pokémon Yellow Version: Special Pikachu Edition
-                    </span>
-                            <div class="cadre_note" title="Note moyenne des membres">
-            <p class="note_top">note</p>
-            <p class="note_bottom orange">
-                <span class="average_rating">3</span>
-                <span class="max_rating">/5</span>
-            </p>
-        </div>
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/kr.png" alt="Coréen" title="Coréen">
-                        RPG | 2 joueurs | 1999
-                    </div>
-                </div>
-            </a>            <a href="/games/sagaia-r53547" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/53547.jpg?1539529620">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/53547.jpg?1539529620" title="Sagaia ">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Sagaia 
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/es.png" alt="Espagnol" title="Espagnol">
-                        Shoot'em up | 1 joueur | 1991
-                    </div>
-                </div>
-            </a>            <a href="/games/red-arremer-makai-mura-gaiden-r53873" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/53873.jpg?1565542194">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/53873.jpg?1565542194" title="Red Arremer: Makai-Mura Gaiden">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Red Arremer: Makai-Mura Gaiden
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais">
-                        Action - RPG | 1 joueur | 1990
-                    </div>
-                </div>
-            </a>            <a href="/games/the-pagemaster-r54834" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/54834.jpg?1542620476">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/54834.jpg?1542620476" title="The Pagemaster">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        The Pagemaster
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Action - Plates-formes | 1 joueur | 1994
-                    </div>
-                </div>
-            </a>            <a href="/games/alfred-chicken-r55308" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/55308.jpg?1546367861">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/55308.jpg?1546367861" title="Alfred Chicken">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Alfred Chicken
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Action - Plates-formes | 1 joueur | 1994
-                    </div>
-                </div>
-            </a>            <a href="/games/aretha-r55391" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/55391.jpg?1547520398">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/55391.jpg?1547520398" title="Aretha">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Aretha
-                    </span>
-                            <div class="cadre_note" title="Note moyenne des membres">
-            <p class="note_top">note</p>
-            <p class="note_bottom green">
-                <span class="average_rating">5</span>
-                <span class="max_rating">/5</span>
-            </p>
-        </div>
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais">
-                        RPG | 2 joueurs | 1990
-                    </div>
-                </div>
-            </a>            <a href="/games/bakuchou-retsuden-shou-hyper-fishing-r55846" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/55846.jpg?1557149714">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/55846.jpg?1557149714" title="Bakuchou Retsuden Shou - Hyper Fishing">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Bakuchou Retsuden Shou - Hyper Fishing
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais">
-                        Simulation | 1 joueur | 1998
-                    </div>
-                </div>
-            </a>            <a href="/games/battle-dodge-ball-r56125" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/56125.jpg?1565520155">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/56125.jpg?1565520155" title="Battle Dodge Ball">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Battle Dodge Ball
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais">
-                        Sport | 2 joueurs | 1992
-                    </div>
-                </div>
-            </a>            <a href="/games/brain-bender-r56277" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/56277.jpg?1568451263">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/56277.jpg?1568451263" title="Brain Bender">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Brain Bender
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Puzzle | 1 joueur | 1991
-                    </div>
-                </div>
-            </a>            <a href="/games/casino-funpak-r56338" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/56338.jpg?1570543356">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/56338.jpg?1570543356" title="Casino FunPak">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Casino FunPak
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Casino | 1 joueur | 1995
-                    </div>
-                </div>
-            </a>            <a href="/games/choplifter-ii-r56355" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/56355.jpg?1570886557">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/56355.jpg?1570886557" title="Choplifter II">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Choplifter II
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais">
-                        Shoot'em up | 2 joueurs | 1991
-                    </div>
-                </div>
-            </a>            <a href="/games/crayon-shin-chan-3-ora-no-gokigen-athletic-r56386" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/56386.jpg?1572506497">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/56386.jpg?1572506497" title="Crayon Shin-Chan 3 - Ora No Gokigen Athletic">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Crayon Shin-Chan 3 - Ora No Gokigen Athletic
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais">
-                        Action | 1 joueur | 1994
-                    </div>
-                </div>
-            </a>            <a href="/games/dick-tracy-r56432" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/56432.jpg?1574339717">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/56432.jpg?1574339717" title="Dick Tracy">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Dick Tracy
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Action | 1 joueur | 1991
-                    </div>
-                </div>
-            </a>            <a href="/games/doraemon-no-study-boy-6-gakushuu-kanji-master-1006-r65263" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/default.jpg">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/65263.jpg?1588432531" title="Doraemon No Study Boy 6 - Gakushuu Kanji Master 1006">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Doraemon No Study Boy 6 - Gakushuu Kanji Master 1006
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais">
-                        Ludo-éducatif | 1 joueur | 1993
-                    </div>
-                </div>
-            </a>            <a href="/games/exodus-journey-to-the-promised-land-r65474" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/default.jpg">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/65474.jpg?1589706791" title="Exodus - Journey To The Promised Land">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Exodus - Journey To The Promised Land
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Action | 2 joueurs | 1992
-                    </div>
-                </div>
-            </a>            <a href="/games/flipull-r65491" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/default.jpg">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/65491.jpg?1589719332" title="Flipull">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Flipull
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais">
-                        Puzzle - Réflexion | 2 joueurs | 1990
-                    </div>
-                </div>
-            </a>            <a href="/games/goukaku-boy-series-eitango-target-1900-r65569" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/default.jpg">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/65569.jpg?1590788392" title="Goukaku Boy Series - Eitango Target 1900">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Goukaku Boy Series - Eitango Target 1900
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais">
-                        Ludo-éducatif | 1 joueur | 1996
-                    </div>
-                </div>
-            </a>            <a href="/games/goukaku-boy-series-shikakui-atama-o-maruku-suru-rika-battle-hen-r65587" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/default.jpg">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/65587.jpg?1590794790" title="Goukaku Boy Series - Shikakui Atama O Maruku Suru - Rika Battle Hen">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Goukaku Boy Series - Shikakui Atama O Maruku Suru - Rika Battle Hen
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais">
-                        Ludo-éducatif | 1 joueur | 1999
-                    </div>
-                </div>
-            </a>            <a href="/games/game-boy-wars-turbo-r65654" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/default.jpg">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/65654.jpg?1591806465" title="Game Boy Wars Turbo">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Game Boy Wars Turbo
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais">
-                        Stratégie | 1 joueur | 1997
-                    </div>
-                </div>
-            </a>            <a href="/games/3-choume-no-tama-tama-and-friends-3-choume-obake-panic-r9336" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/9336.jpg?1513796565">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/9336.jpg?1513796565" title="3 Choume no Tama - Tama and Friends - 3 Choume Obake Panic!!">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        3 Choume no Tama - Tama and Friends - 3 Choume Obake Panic!!
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais">
-                        Aventure | 1 joueur | 1994
-                    </div>
-                </div>
-            </a>            <a href="/games/battleship-r9387" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/9387.jpg?1513103048">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/9387.jpg?1513103048" title="Battleship">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Battleship
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Puzzle - Réflexion | 2 joueurs | 1992
-                    </div>
-                </div>
-            </a>            <a href="/games/bataille-navale-r9442" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/9442.jpg?1487009567">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/9442.jpg?1487009567" title="Bataille Navale">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Bataille Navale
-                    </span>
-                            <div class="cadre_note" title="Note moyenne des membres">
-            <p class="note_top">note</p>
-            <p class="note_bottom green">
-                <span class="average_rating">5</span>
-                <span class="max_rating">/5</span>
-            </p>
-        </div>
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/de.png" alt="Allemand" title="Allemand"><img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais"><img src="/romstation/resources/images/flags/es.png" alt="Espagnol" title="Espagnol"><img src="/romstation/resources/images/flags/fr.png" alt="Français" title="Français">
-                        Jeu de plateau | 2 joueurs | 1992
-                    </div>
-                </div>
-            </a>            <a href="/games/dig-dug-r9579" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/9579.jpg?1513979179">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/9579.jpg?1513979179" title="Dig Dug">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        Dig Dug
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
                         Action | 1 joueur | 1992
                     </div>
                 </div>
-            </a>            <a href="/games/ferrari-grand-prix-challenge-r9717" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/9717.jpg?1589709890">
+            </a>            <a href="/games/chase-h-q-r46677" class="game_row lazyloaded" data-bg="/romstation/resources/games/nes/mini_banner/46677.jpg?1455235112" style="background-image: url(&quot;/romstation/resources/games/nes/mini_banner/46677.jpg?1455235112&quot;);">
                 <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/9717.jpg?1589709890" title="Ferrari Grand Prix Challenge">
+                    <img class="game_row_jaquette lazyloaded" data-src="/romstation/resources/games/nes/mini_cover/46677.jpg?1455235112" title="Chase H.Q." src="/romstation/resources/games/nes/mini_cover/46677.jpg?1455235112">
                     
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
+                    <img class="game_row_console ls-is-cached lazyloaded" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png" src="/romstation/resources/images/games/consoles/nes.png">
                     <span class="game_row_title">
-                        Ferrari Grand Prix Challenge
+                        Chase H.Q.
                     </span>
                     
                     <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
                         <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Course | 4 joueurs | 1992
+                        Action - Course | 1 joueur | 1989
                     </div>
                 </div>
-            </a>            <a href="/games/hugo-r9830" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/9830.jpg?1491400701">
+            </a>            <a href="/games/f-1-race-r47044" class="game_row lazyloaded" data-bg="/romstation/resources/games/nes/mini_banner/47044.jpg?1457356232" style="background-image: url(&quot;/romstation/resources/games/nes/mini_banner/47044.jpg?1457356232&quot;);">
                 <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/9830.jpg?1491400701" title="Hugo">
+                    <img class="game_row_jaquette lazyloaded" data-src="/romstation/resources/games/nes/mini_cover/47044.jpg?1457356232" title="F-1 Race" src="/romstation/resources/games/nes/mini_cover/47044.jpg?1457356232">
                     
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
+                    <img class="game_row_console ls-is-cached lazyloaded" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png" src="/romstation/resources/images/games/consoles/nes.png">
                     <span class="game_row_title">
-                        Hugo
-                    </span>
-                    
-                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Action - Plates-formes | 1 joueur | 1992
-                    </div>
-                </div>
-            </a>            <a href="/games/the-king-of-fighters-95-r9967" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/9967.jpg?1540413855">
-                <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/9967.jpg?1540413855" title="The King of Fighters '95">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
-                    <span class="game_row_title">
-                        The King of Fighters '95
+                        F-1 Race
                     </span>
                             <div class="cadre_note" title="Note moyenne des membres">
             <p class="note_top">note</p>
@@ -1079,54 +395,786 @@
             </p>
         </div>
                     <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <b>1 <img src="/romstation/resources/images/games/popularity/down.gif" alt="Popularité décroissante" title="Popularité décroissante"></b>
                         <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Combat | 1 joueur | 1997
+                        Course | 1 joueur | 1984
                     </div>
                 </div>
-            </a>            <a href="/games/mickey-mouse-magic-wands-r10167" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/10167.jpg?1539335358">
+            </a>            <a href="/games/popeye-r51402" class="game_row lazyloaded" data-bg="/romstation/resources/games/nes/mini_banner/51402.jpg?1496208018" style="background-image: url(&quot;/romstation/resources/games/nes/mini_banner/51402.jpg?1496208018&quot;);">
                 <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/10167.jpg?1539335358" title="Mickey Mouse - Magic Wands!">
+                    <img class="game_row_jaquette lazyloaded" data-src="/romstation/resources/games/nes/mini_cover/51402.jpg?1496208018" title="Popeye " src="/romstation/resources/games/nes/mini_cover/51402.jpg?1496208018">
                     
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
+                    <img class="game_row_console ls-is-cached lazyloaded" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png" src="/romstation/resources/images/games/consoles/nes.png">
                     <span class="game_row_title">
-                        Mickey Mouse - Magic Wands!
+                        Popeye 
                     </span>
                     
                     <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Action - Réflexion | 1 joueur | 1993
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/ae.png" alt="Arabe" title="Arabe">
+                        Action | 2 joueurs | 1986
                     </div>
                 </div>
-            </a>            <a href="/games/prehistorik-man-r10357" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/10357.jpg?1539357565">
+            </a>            <a href="/games/windows-98-r52935" class="game_row lazyloaded" data-bg="/romstation/resources/games/nes/mini_banner/52935.jpg?1517944382" style="background-image: url(&quot;/romstation/resources/games/nes/mini_banner/52935.jpg?1517944382&quot;);">
                 <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/10357.jpg?1539357565" title="Prehistorik Man">
+                    <img class="game_row_jaquette lazyloaded" data-src="/romstation/resources/games/nes/mini_cover/52935.jpg?1517944382" title="Windows 98" src="/romstation/resources/games/nes/mini_cover/52935.jpg?1517944382">
                     
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
+                    <img class="game_row_console ls-is-cached lazyloaded" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png" src="/romstation/resources/images/games/consoles/nes.png">
                     <span class="game_row_title">
-                        Prehistorik Man
+                        Windows 98
                     </span>
                     
                     <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
-                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Plates-formes | 1 joueur | 1996
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/cn.png" alt="Chinois" title="Chinois">
+                        Autre | 1 joueur | 2002
                     </div>
                 </div>
-            </a>            <a href="/games/q-bert-r10406" class="lazyload game_row" data-bg="/romstation/resources/games/gb/mini_banner/10406.jpg?1540039074">
+            </a>            <a href="/games/joy-mech-fight-r55128" class="game_row lazyloaded" data-bg="/romstation/resources/games/nes/mini_banner/55128.jpg?1544666989" style="background-image: url(&quot;/romstation/resources/games/nes/mini_banner/55128.jpg?1544666989&quot;);">
                 <div class="game_inner_row">
-                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/gb/mini_cover/10406.jpg?1540039074" title="Q*bert">
-                    
-                    <img class="lazyload game_row_console" title="GameBoy" data-src="/romstation/resources/images/games/consoles/gb.png">
+                    <img class="game_row_jaquette lazyloaded" data-src="/romstation/resources/games/nes/mini_cover/55128.jpg?1544666989" title="Joy Mech Fight" src="/romstation/resources/games/nes/mini_cover/55128.jpg?1544666989">
+                    <span class="ipsCommentCount" title="1 commentaire">1</span>
+                    <img class="game_row_console ls-is-cached lazyloaded" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png" src="/romstation/resources/images/games/consoles/nes.png">
                     <span class="game_row_title">
-                        Q*bert
+                        Joy Mech Fight
+                    </span>
+                            <div class="cadre_note" title="Note moyenne des membres">
+            <p class="note_top">note</p>
+            <p class="note_bottom green">
+                <span class="average_rating">5</span>
+                <span class="max_rating">/5</span>
+            </p>
+        </div>
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/fr.png" alt="Français" title="Français">
+                        Combat | 2 joueurs | 1993
+                    </div>
+                </div>
+            </a>            <a href="/games/the-adventures-of-rad-gravity-r6174" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/6174.jpg?0">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/6174.jpg?0" title="The Adventures of Rad Gravity">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        The Adventures of Rad Gravity
                     </span>
                     
                     <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
-                        <b>0 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
                         <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
-                        Action - Réflexion | 1 joueur | 1992
+                        Action - Plates-formes | 1 joueur
+                    </div>
+                </div>
+            </a>            <a href="/games/batman-returns-r6266" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/6266.jpg?0">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/6266.jpg?0" title="Batman Returns">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Batman Returns
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        Action - Beat'em all | 1 joueur
+                    </div>
+                </div>
+            </a>            <a href="/games/g-i-joe-a-real-american-hero-the-atlantis-factor-r6855" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/6855.jpg?0">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/6855.jpg?0" title="G.I. Joe - A Real American Hero - The Atlantis Factor">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        G.I. Joe - A Real American Hero - The Atlantis Factor
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        1 joueur
+                    </div>
+                </div>
+            </a>            <a href="/games/ghostbusters-ii-r7092" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/7092.jpg?0">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/7092.jpg?0" title="Ghostbusters II">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Ghostbusters II
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        Action | 1 joueur
+                    </div>
+                </div>
+            </a>            <a href="/games/monopoly-r7566" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/7566.jpg?1399398598">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/7566.jpg?1399398598" title="Monopoly">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Monopoly
+                    </span>
+                            <div class="cadre_note" title="Note moyenne des membres">
+            <p class="note_top">note</p>
+            <p class="note_bottom green">
+                <span class="average_rating">5</span>
+                <span class="max_rating">/5</span>
+            </p>
+        </div>
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/down.gif" alt="Popularité décroissante" title="Popularité décroissante"></b>
+                        <img src="/romstation/resources/images/flags/fr.png" alt="Français" title="Français">
+                        Jeu de plateau | 1 joueur
+                    </div>
+                </div>
+            </a>            <a href="/games/super-c-r8396" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/8396.jpg?1547416495">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/8396.jpg?1547416495" title="Super C">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Super C
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        Action - Plates-formes | 2 joueurs | 1990
+                    </div>
+                </div>
+            </a>            <a href="/games/antarctic-adventure-r35489" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/35489.jpg?1525175116">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/35489.jpg?1525175116" title="Antarctic Adventure">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Antarctic Adventure
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais">
+                        Action - Course | 1 joueur | 1985
+                    </div>
+                </div>
+            </a>            <a href="/games/takahashi-meijin-no-bouken-jima-iv-r36511" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/36511.jpg?1487839654">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/36511.jpg?1487839654" title="Takahashi Meijin no Bouken Jima IV ">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Takahashi Meijin no Bouken Jima IV 
+                    </span>
+                            <div class="cadre_note" title="Note moyenne des membres">
+            <p class="note_top">note</p>
+            <p class="note_bottom blue">
+                <span class="average_rating">4</span>
+                <span class="max_rating">/5</span>
+            </p>
+        </div>
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/fr.png" alt="Français" title="Français">
+                        Action - Plates-formes | 1 joueur | 1994
+                    </div>
+                </div>
+            </a>            <a href="/games/devil-world-r36775" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/36775.jpg?1394641304">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/36775.jpg?1394641304" title="Devil World">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Devil World
+                    </span>
+                            <div class="cadre_note" title="Note moyenne des membres">
+            <p class="note_top">note</p>
+            <p class="note_bottom blue">
+                <span class="average_rating">4</span>
+                <span class="max_rating">/5</span>
+            </p>
+        </div>
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/down.gif" alt="Popularité décroissante" title="Popularité décroissante"></b>
+                        <img src="/romstation/resources/images/flags/fr.png" alt="Français" title="Français">
+                        Action | 2 joueurs | 1987
+                    </div>
+                </div>
+            </a>            <a href="/games/taiyou-no-yuusha-firebird-r37017" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/37017.jpg?1395568077">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/37017.jpg?1395568077" title="Taiyou no Yuusha Firebird">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Taiyou no Yuusha Firebird
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/fr.png" alt="Français" title="Français">
+                        Shoot'em up | 1 joueur | 1990
+                    </div>
+                </div>
+            </a>            <a href="/games/d-pad-hero-r39891" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/39891.jpg?1456760531">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/39891.jpg?1456760531" title="D-Pad Hero">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        D-Pad Hero
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais"><img src="/romstation/resources/images/icons/homebrew.png" alt="Homebrew" title="Homebrew">
+                        Musique | 1 joueur | 2009
+                    </div>
+                </div>
+            </a>            <a href="/games/super-mario-balloon-r40947" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/40947.jpg?1411754634">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/40947.jpg?1411754634" title="Super Mario Balloon">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Super Mario Balloon
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais"><img src="/romstation/resources/images/icons/hack.png" alt="Hackrom" title="Hackrom">
+                        Action | 2 joueurs | 2014
+                    </div>
+                </div>
+            </a>            <a href="/games/titanic-r41615" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/41615.jpg?1500948826">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/41615.jpg?1500948826" title="Titanic">
+                    <span class="ipsCommentCount" title="3 commentaires">3</span>
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Titanic
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        Action - Aventure | 1 joueur | 2005
+                    </div>
+                </div>
+            </a>            <a href="/games/megaman-4-ridley-x-hack-5-r42103" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/42103.jpg?1540555899">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/42103.jpg?1540555899" title="Megaman 4 : Ridley X Hack 5">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Megaman 4 : Ridley X Hack 5
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais"><img src="/romstation/resources/images/icons/hack.png" alt="Hackrom" title="Hackrom">
+                        Action - Plates-formes | 1 joueur | 2014
+                    </div>
+                </div>
+            </a>            <a href="/games/super-loco-spoof-r45144" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/45144.jpg?1445017764">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/45144.jpg?1445017764" title="Super Loco Spoof !">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Super Loco Spoof !
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/down.gif" alt="Popularité décroissante" title="Popularité décroissante"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais"><img src="/romstation/resources/images/icons/hack.png" alt="Hackrom" title="Hackrom">
+                        Plates-formes | 1 joueur | 2006
+                    </div>
+                </div>
+            </a>            <a href="/games/rockman-deus-ex-machina-r46542" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/46542.jpg?1454651779">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/46542.jpg?1454651779" title="Rockman Deus Ex Machina">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Rockman Deus Ex Machina
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/jp.png" alt="Japonais" title="Japonais"><img src="/romstation/resources/images/icons/hack.png" alt="Hackrom" title="Hackrom">
+                        Action - Plates-formes | 1 joueur | 2008
+                    </div>
+                </div>
+            </a>            <a href="/games/karate-champ-r47214" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/47214.jpg?1458068894">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/47214.jpg?1458068894" title="Karate Champ">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Karate Champ
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        Combat | 2 joueurs | 1986
+                    </div>
+                </div>
+            </a>            <a href="/games/teenage-mutant-ninja-turtles-r50224" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/50224.jpg?1481778909">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/50224.jpg?1481778909" title="Teenage Mutant Ninja Turtles">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Teenage Mutant Ninja Turtles
+                    </span>
+                            <div class="cadre_note" title="Note moyenne des membres">
+            <p class="note_top">note</p>
+            <p class="note_bottom green">
+                <span class="average_rating">5</span>
+                <span class="max_rating">/5</span>
+            </p>
+        </div>
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/ro.png" alt="Roumain" title="Roumain">
+                        Action - Plates-formes | 1 joueur | 1989
+                    </div>
+                </div>
+            </a>            <a href="/games/magic-jewelry-r51332" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/51332.jpg?1495706177">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/51332.jpg?1495706177" title="Magic Jewelry ">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Magic Jewelry 
+                    </span>
+                            <div class="cadre_note" title="Note moyenne des membres">
+            <p class="note_top">note</p>
+            <p class="note_bottom green">
+                <span class="average_rating">5</span>
+                <span class="max_rating">/5</span>
+            </p>
+        </div>
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais"><img src="/romstation/resources/images/icons/hack.png" alt="Hackrom" title="Hackrom">
+                        Puzzle | 1 joueur | 1990
+                    </div>
+                </div>
+            </a>            <a href="/games/madoola-no-tsubasa-the-wing-of-madoola-r51461" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/51461.jpg?1571288343">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/51461.jpg?1571288343" title="Madoola no Tsubasa: The Wing of Madoola ">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Madoola no Tsubasa: The Wing of Madoola 
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        Action - Plates-formes | 1 joueur | 1986
+                    </div>
+                </div>
+            </a>            <a href="/games/the-adventures-of-captain-comic-r54224" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/54224.jpg?1537524488">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/54224.jpg?1537524488" title="The Adventures of Captain Comic ">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        The Adventures of Captain Comic 
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/fr.png" alt="Français" title="Français">
+                        Action - Plates-formes | 1 joueur | 1989
+                    </div>
+                </div>
+            </a>            <a href="/games/alpha-mission-r6207" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/6207.jpg?1455810001">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/6207.jpg?1455810001" title="Alpha Mission">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Alpha Mission
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        Shoot'em up | 1 joueur | 1987
+                    </div>
+                </div>
+            </a>            <a href="/games/the-bugs-bunny-crazy-castle-r6477" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/6477.jpg?0">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/6477.jpg?0" title="The Bugs Bunny Crazy Castle">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        The Bugs Bunny Crazy Castle
+                    </span>
+                            <div class="cadre_note" title="Note moyenne des membres">
+            <p class="note_top">note</p>
+            <p class="note_bottom blue">
+                <span class="average_rating">4</span>
+                <span class="max_rating">/5</span>
+            </p>
+        </div>
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        1 joueur
+                    </div>
+                </div>
+            </a>            <a href="/games/blaster-master-r6518" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/6518.jpg?1518052369">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/6518.jpg?1518052369" title="Blaster Master">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Blaster Master
+                    </span>
+                            <div class="cadre_note" title="Note moyenne des membres">
+            <p class="note_top">note</p>
+            <p class="note_bottom green">
+                <span class="average_rating">5</span>
+                <span class="max_rating">/5</span>
+            </p>
+        </div>
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        Action - Plates-formes | 1 joueur | 1988
+                    </div>
+                </div>
+            </a>            <a href="/games/disney-s-darkwing-duck-r6625" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/6625.jpg?1569772379">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/6625.jpg?1569772379" title="Disney's Darkwing Duck">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Disney's Darkwing Duck
+                    </span>
+                            <div class="cadre_note" title="Note moyenne des membres">
+            <p class="note_top">note</p>
+            <p class="note_bottom green">
+                <span class="average_rating">5</span>
+                <span class="max_rating">/5</span>
+            </p>
+        </div>
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/down.gif" alt="Popularité décroissante" title="Popularité décroissante"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        Plates-formes - Action | 1 joueur | 1992
+                    </div>
+                </div>
+            </a>            <a href="/games/kiwi-kraze-a-bird-brained-adventure-r7325" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/7325.jpg?0">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/7325.jpg?0" title="Kiwi Kraze - A Bird-Brained Adventure!">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Kiwi Kraze - A Bird-Brained Adventure!
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        1 joueur
+                    </div>
+                </div>
+            </a>            <a href="/games/low-g-man-the-low-gravity-man-r7506" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/7506.jpg?1525511974">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/7506.jpg?1525511974" title="Low G Man - The Low Gravity Man">
+                    <span class="ipsCommentCount" title="1 commentaire">1</span>
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Low G Man - The Low Gravity Man
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        Action - Plates-formes | 1 joueur | 1990
+                    </div>
+                </div>
+            </a>            <a href="/games/pinball-quest-r7678" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/7678.jpg?1588686025">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/7678.jpg?1588686025" title="Pinball Quest">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Pinball Quest
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        Flipper - RPG | 1 joueur | 1990
+                    </div>
+                </div>
+            </a>            <a href="/games/river-city-ransom-r7848" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/7848.jpg?1509069360">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/7848.jpg?1509069360" title="River City Ransom">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        River City Ransom
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        Beat'em all | 2 joueurs | 1990
+                    </div>
+                </div>
+            </a>            <a href="/games/silent-service-r8241" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/8241.jpg?0">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/8241.jpg?0" title="Silent Service">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Silent Service
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        1 joueur
+                    </div>
+                </div>
+            </a>            <a href="/games/astyanax-r36204" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/36204.jpg?0">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/36204.jpg?0" title="Astyanax">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Astyanax
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/fr.png" alt="Français" title="Français">
+                        Action - Plates-formes | 1 joueur | 1989
+                    </div>
+                </div>
+            </a>            <a href="/games/abadox-the-deadly-inner-war-r36517" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/36517.jpg?1392213967">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/36517.jpg?1392213967" title="Abadox : The Deadly Inner War">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Abadox : The Deadly Inner War
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/fr.png" alt="Français" title="Français">
+                        Shoot'em up | 1 joueur | 1989
+                    </div>
+                </div>
+            </a>            <a href="/games/ken-le-survivant-r36809" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/36809.jpg?1396782755">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/36809.jpg?1396782755" title="Ken le Survivant">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Ken le Survivant
+                    </span>
+                            <div class="cadre_note" title="Note moyenne des membres">
+            <p class="note_top">note</p>
+            <p class="note_bottom blue">
+                <span class="average_rating">4</span>
+                <span class="max_rating">/5</span>
+            </p>
+        </div>
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/fr.png" alt="Français" title="Français">
+                        Beat'em all | 1 joueur | 1989
+                    </div>
+                </div>
+            </a>            <a href="/games/hook-r36843" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/36843.jpg?1394704679">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/36843.jpg?1394704679" title="Hook">
+                    <span class="ipsCommentCount" title="1 commentaire">1</span>
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Hook
+                    </span>
+                            <div class="cadre_note" title="Note moyenne des membres">
+            <p class="note_top">note</p>
+            <p class="note_bottom red">
+                <span class="average_rating">2</span>
+                <span class="max_rating">/5</span>
+            </p>
+        </div>
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/fr.png" alt="Français" title="Français">
+                        Plates-formes | 2 joueurs | 1992
+                    </div>
+                </div>
+            </a>            <a href="/games/talespin-r37019" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/37019.jpg?1569779105">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/37019.jpg?1569779105" title="TaleSpin">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        TaleSpin
+                    </span>
+                            <div class="cadre_note" title="Note moyenne des membres">
+            <p class="note_top">note</p>
+            <p class="note_bottom green">
+                <span class="average_rating">5</span>
+                <span class="max_rating">/5</span>
+            </p>
+        </div>
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/fr.png" alt="Français" title="Français">
+                        Shoot'em up | 2 joueurs | 1992
+                    </div>
+                </div>
+            </a>            <a href="/games/battle-city-four-players-hack-r40949" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/40949.jpg?1540554853">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/40949.jpg?1540554853" title="Battle City : Four Players Hack">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Battle City : Four Players Hack
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais"><img src="/romstation/resources/images/icons/hack.png" alt="Hackrom" title="Hackrom">
+                        Action | 4 joueurs | 2014
+                    </div>
+                </div>
+            </a>            <a href="/games/mega-man-3-simplified-r42105" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/42105.jpg?1415615766">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/42105.jpg?1415615766" title="Mega Man 3 Simplified">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Mega Man 3 Simplified
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais"><img src="/romstation/resources/images/icons/hack.png" alt="Hackrom" title="Hackrom">
+                        Action - Plates-formes | 1 joueur | 2014
+                    </div>
+                </div>
+            </a>            <a href="/games/hello-kitty-world-r42907" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/42907.jpg?1423049904">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/42907.jpg?1423049904" title="Hello Kitty World">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Hello Kitty World
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/se.png" alt="Suédois" title="Suédois">
+                        Plates-formes | 2 joueurs | 1992
+                    </div>
+                </div>
+            </a>            <a href="/games/pac-man-the-new-levels-r42963" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/42963.jpg?1423471932">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/42963.jpg?1423471932" title="Pac-Man - The New Levels">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Pac-Man - The New Levels
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais"><img src="/romstation/resources/images/icons/hack.png" alt="Hackrom" title="Hackrom">
+                        Action | 2 joueurs | 1996
+                    </div>
+                </div>
+            </a>            <a href="/games/promotion-mario-bros-r43095" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/43095.jpg?1570250791">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/43095.jpg?1570250791" title="Promotion Mario Bros.">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Promotion Mario Bros.
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/down.gif" alt="Popularité décroissante" title="Popularité décroissante"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais"><img src="/romstation/resources/images/icons/hack.png" alt="Hackrom" title="Hackrom">
+                        Plates-formes | 1 joueur | 2004
+                    </div>
+                </div>
+            </a>            <a href="/games/m-mario-r43114" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/43114.jpg?1570250874">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/43114.jpg?1570250874" title="M Mario">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        M Mario
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais"><img src="/romstation/resources/images/icons/hack.png" alt="Hackrom" title="Hackrom">
+                        Plates-formes | 2 joueurs | 2003
+                    </div>
+                </div>
+            </a>            <a href="/games/super-mario-bros-kiri5-star-r44124" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/44124.jpg?1573042408">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/44124.jpg?1573042408" title="Super Mario Bros. - Kiri5 Star">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Super Mario Bros. - Kiri5 Star
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais"><img src="/romstation/resources/images/icons/hack.png" alt="Hackrom" title="Hackrom">
+                        Plates-formes | 2 joueurs | 2003
+                    </div>
+                </div>
+            </a>            <a href="/games/garou-densetsu-special-r45316" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/45316.jpg?1445573531">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/45316.jpg?1445573531" title="Garou Densetsu Special">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Garou Densetsu Special
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/same.gif" alt="Popularité stable" title="Popularité stable"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais"><img src="/romstation/resources/images/icons/hack.png" alt="Hackrom" title="Hackrom">
+                        Combat | 2 joueurs | 1995
+                    </div>
+                </div>
+            </a>            <a href="/games/golgo-13-top-secret-episode-r47435" class="lazyload game_row" data-bg="/romstation/resources/games/nes/mini_banner/47435.jpg?1458753766">
+                <div class="game_inner_row">
+                    <img class="lazyload game_row_jaquette" data-src="/romstation/resources/games/nes/mini_cover/47435.jpg?1458753766" title="Golgo 13: Top Secret Episode">
+                    
+                    <img class="lazyload game_row_console" title="NES" data-src="/romstation/resources/images/games/consoles/nes.png">
+                    <span class="game_row_title">
+                        Golgo 13: Top Secret Episode
+                    </span>
+                    
+                    <div class="game_row_info" data-ipstruncate="" data-ipstruncate-type="remove" data-ipstruncate-size="4 lines" style="overflow-wrap: break-word;">
+                        <b>1 <img src="/romstation/resources/images/games/popularity/up.gif" alt="Popularité croissante" title="Popularité croissante"></b>
+                        <img src="/romstation/resources/images/flags/gb.png" alt="Anglais" title="Anglais">
+                        Action | 1 joueur | 1988
                     </div>
                 </div>
             </a>
@@ -1134,44 +1182,44 @@
             <ul class="ipsPagination">
             
             <li class="ipsPagination_first">
-                <a rel="start" title="Aller à la première page" href="/games?rs_page=1&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy"><i class="fa fa-angle-double-left"></i></a>
+                <a rel="start" title="Aller à la première page" href="/games?rs_page=1&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES"><i class="fa fa-angle-double-left"></i></a>
             </li>
             
             <li class="ipsPagination_prev">
-                <a rel="prev" title="Page précédente" href="/games?rs_page=9&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">Précédent</a>
+                <a rel="prev" title="Page précédente" href="/games?rs_page=8&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">Précédent</a>
             </li>
             
             <li class="ipsPagination_page ">
-                <a title="7" href="/games?rs_page=7&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">7</a>
+                <a title="6" href="/games?rs_page=6&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">6</a>
             </li>
             <li class="ipsPagination_page ">
-                <a title="8" href="/games?rs_page=8&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">8</a>
+                <a title="7" href="/games?rs_page=7&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">7</a>
             </li>
             <li class="ipsPagination_page ">
-                <a title="9" href="/games?rs_page=9&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">9</a>
+                <a title="8" href="/games?rs_page=8&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">8</a>
             </li>
             <li class="ipsPagination_page ipsPagination_active">
-                <a title="10" href="/games?rs_page=10&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">10</a>
+                <a title="9" href="/games?rs_page=9&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">9</a>
             </li>
             <li class="ipsPagination_page ">
-                <a title="11" href="/games?rs_page=11&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">11</a>
+                <a title="10" href="/games?rs_page=10&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">10</a>
             </li>
             <li class="ipsPagination_page ">
-                <a title="12" href="/games?rs_page=12&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">12</a>
+                <a title="11" href="/games?rs_page=11&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">11</a>
             </li>
             <li class="ipsPagination_page ">
-                <a title="13" href="/games?rs_page=13&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">13</a>
+                <a title="12" href="/games?rs_page=12&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">12</a>
             </li>
             
             <li class="ipsPagination_next">
-                <a rel="next" title="Page suivante" href="/games?rs_page=11&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy">Suivant</a>
+                <a rel="next" title="Page suivante" href="/games?rs_page=10&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES">Suivant</a>
             </li>
             
             <li class="ipsPagination_last">
-                <a rel="last" title="Aller à la dernière page" href="/games?rs_page=20&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=14%2FGameBoy"><i class="fa fa-angle-double-right"></i></a>
+                <a rel="last" title="Aller à la dernière page" href="/games?rs_page=54&amp;order_disp=pop%2FPlus+jou%C3%A9s&amp;consoles_id[]=19%2FNES"><i class="fa fa-angle-double-right"></i></a>
             </li>
             <li class="ipsPagination_pageJump">
-                Page 10 sur 20
+                Page 9 sur 54
             </li>
         </ul>
 
@@ -1263,7 +1311,7 @@
         <div class="ipsField_fieldList_content">
             <label for="elCheckbox_content_consoles_id_13" id="elCheckbox_content_consoles_id_13"><img src="/romstation/resources/images/games/consoles/game-gear.png"> Game Gear</label>
         </div>        <span class="ipsCustomInput">
-            <input name="consoles_id[]" value="14/GameBoy" id="elCheckbox_content_consoles_id_14" type="checkbox" checked="">
+            <input name="consoles_id[]" value="14/GameBoy" id="elCheckbox_content_consoles_id_14" type="checkbox">
             <span></span>
         </span>
         <div class="ipsField_fieldList_content">
@@ -1329,7 +1377,7 @@
         <div class="ipsField_fieldList_content">
             <label for="elCheckbox_content_consoles_id_34" id="elCheckbox_content_consoles_id_34"><img src="/romstation/resources/images/games/consoles/neo-geo.png"> Neo-Geo</label>
         </div>        <span class="ipsCustomInput">
-            <input name="consoles_id[]" value="19/NES" id="elCheckbox_content_consoles_id_19" type="checkbox">
+            <input name="consoles_id[]" value="19/NES" id="elCheckbox_content_consoles_id_19" type="checkbox" checked="">
             <span></span>
         </span>
         <div class="ipsField_fieldList_content">
