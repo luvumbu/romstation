@@ -236,7 +236,6 @@ if ($conn_adds->query($sql_adds) === TRUE) {
 } else {
   echo "Error: " . $sql_adds . "<br>" . $conn_adds->error;
 }
-
 $conn_adds->close();
 
 
