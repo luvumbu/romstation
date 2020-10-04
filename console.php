@@ -168,17 +168,29 @@ if ($test === false) {
 }
 // Tout est OK
 echo "\nSauvegarde effectuée avec succés.";
- 
-
-
-
-
 
 $servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "romstation";
  
+
+
+
+
+
+
+
+
+ 
+
+
+// $nom_console
+// $nom_jeux
+
+
+
+
 
  
 // Create connection
@@ -227,6 +239,43 @@ $conn_adds = new mysqli($servername, $username, $password, $dbname);
 if ($conn_adds->connect_error) {
   die("Connection failed: " . $conn_adds->connect_error);
 }
+
+
+
+
+// 
+
+$search  = array("&","'","à","À","á","Á","â","Â","ã","Ã","ä","Ä","å","Å","æ","Æ","è","È","é","É","ê","Ê","ë","Ë","ì","Ì","í","Í","î","Î","ï","Ï","ò","Ò","ó","Ó","ô","Ô","õ","Õ","ö","Ö","ø","Ø","ù","Ù","ú","Ú","û","Û","ü","Ü","ñ","Ñ","ý","Ý");
+$replace = array('&amp',"&#039","&agrave","&Agrave","&aacute","&Aacute","&acirc","&Acirc","&atilde","&Atilde","&auml","&Auml","&aring","&Aring","&aelig","&AElig","&egrave","&Egrave","&eacute","&Eacute","&ecirc","&Ecirc","&euml","&Euml","&igrave","&Igrave","&iacute","&Iacute","&icirc","&Icirc","&iuml","&Iuml","&ograve","&Ograve","&oacute","&Oacute","&ocirc","&Ocirc","&otilde","&Otilde","&ouml","&Ouml","&oslash","&Oslash","&ugrave","&Ugrave","&uacute","&Uacute","&ucirc","&Ucirc","&uuml","&Uuml","&ntilde","&Ntilde","&yacute","&Yacute");
+
+$joueur_active= str_replace($search, $replace, $joueur_active);
+$nom_console= str_replace($search, $replace, $nom_console);
+$name= str_replace($search, $replace, $name);
+$nom_jeux= str_replace($search, $replace, $nom_jeux);
+$nombre_joueur_jeux= str_replace($search, $replace, $nombre_joueur_jeux);
+$type_jeux= str_replace($search, $replace, $type_jeux);
+ 
+ 
+ 
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+//
+
+
+
+
+
 
 $sql_adds = "INSERT INTO jeux (id_console,joueur_active,nom_console,titre_jeux,image_jeux,type_jeux,nombre_joueur_jeux,anne)
 VALUES ('$id_console','$joueur_active','$nom_console', '$nom_jeux','$name','$type_jeux','$nombre_joueur_jeux','$anne')";
